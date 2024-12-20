@@ -3,11 +3,13 @@ module aks-imex-operator
 go 1.23.4
 
 require (
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.16.0
 	k8s.io/apimachinery v0.32.0
 	k8s.io/client-go v0.32.0
 )
 
 require (
+	github.com/Azure/azure-sdk-for-go/sdk/internal v1.10.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect

@@ -6,6 +6,7 @@ spec:
   containers:
     - name: aks-imex-daemon
       image: alexbenncr.azurecr.io/aks-imex/aks-imex-daemon:latest
+      imagePullPolicy: Always
       env:
         - name: MY_POD_NAME
           valueFrom:
